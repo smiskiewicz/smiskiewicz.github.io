@@ -35,8 +35,8 @@ googleAnalytics = ""
     # customCSS            = ["default", "/path/to/file"]
     # customJS             = ["default", "/path/to/file"]
 
-    customCSS            = ["default", "/css/main.min.css"]
-    customJS             = ["default", "/js/main.min.js"]
+    customCSS            = ["default"]
+    customJS             = ["default"]
 
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
