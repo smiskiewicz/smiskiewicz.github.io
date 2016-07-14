@@ -1,4 +1,4 @@
-baseurl = "http://smiskiewicz.github.io/"
+baseurl = "https://smiskiewicz.github.io/"
 languageCode = "en-us"
 title = "Automation Engineering"
 theme = "hugo-future-imperfect"
