@@ -5,7 +5,7 @@ branches:
 go:
 - 1.5.1
 before_script:
-- go get -u -v github.com/spf13/hugo
+- go get -v github.com/spf13/hugo
 script:
 - git submodules https://github.com/jpescador/hugo-future-imperfect.git ./themes/hugo-future-imperfect
 - hugo
