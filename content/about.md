@@ -11,7 +11,3 @@ title = "about"
 
 +++
 I'm a dude.
-
-{{< img-post path="/img/" file="wow.gif" alt="wow" type="left" >}}
-{{< img-post path="/img/" file="wow.gif" alt="wow" type="right" >}}
-{{< img-post path="/img/" file="wow.gif" alt="wow" type="center" >}}
