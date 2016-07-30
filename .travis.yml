@@ -8,7 +8,7 @@ go:
 # - go get -v github.com/spf13/hugo
 install: go get github.com/spf13/hugo
 script:
-- git submodules https://github.com/jpescador/hugo-future-imperfect.git ./themes/hugo-future-imperfect
+- git submodule https://github.com/jpescador/hugo-future-imperfect.git ./themes/hugo-future-imperfect
 - hugo
 # after_success:
 #   - bash deploy.sh
