@@ -10,8 +10,8 @@ install: go get github.com/spf13/hugo
 script:
 # - git submodule https://github.com/jpescador/hugo-future-imperfect.git ./themes/hugo-future-imperfect
 - hugo
-# after_success:
-#   - bash deploy.sh
+after_success:
+  - bash deploy.sh
 env:
   global:
     secure: SA4zCjqcLacVLO38JpBavcNx1sL0jNgCcL/BbyRzXikkaDMY1zXTA0NxyTn9AbfKA2n3P2y0hbGNpnhl/ydcEuqtIy93EMMLp/les/BQCTbuJiCCdS3mHHJMwNspZ5+fVMr6AJg3gNiJJh9+fjfo9Y1Adb0phNgN3uWfhf8AhWXolvBgtWYeG5EST0IljzZ51hzTG6b+Qwi30HHUPfbi5fg0WzBDnvSkdhOz0tIc3OsuCRZyctDSu2gfqOEAVBOzUXIA5MK6ue1rQJ4xeuh3BfllRdqXs4ggjj45K3AU/aHY39ZdkYanpx/l8GTVp9d2IaAWB5NmZMcuJLRKAwpnc0TZk02pfaHdM2b/rQsck8xjvnOdLajcIlrCOTrU7c0N81cGMD7y28g9VsPn1fw5KF31DS45MduNgroZ3J8VlYJWckNUWyqVrLcaU5Q53MN2FgKrU/kwM7yY8h4bCnBr6ufA31F59NB9GfFZmNo0vKtUkm5/zzFDy8Nno91lkdKQ6TVt1FjVvUel0n9n+JXe1U14iHNfTDznor34BjJqv/55wA7uzdH9XaVTHUXp/EyLBvI9VyTRvvPqX6KIN7giE4pluK4Y4xcnjp7TufAeCrejnvOg0qf0JWeDWGl7xt8j1bb8flGJeaJuELNqhGN02tcVEuYQ60tS6TrAFD5PXSg=
