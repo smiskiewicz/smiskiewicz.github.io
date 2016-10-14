@@ -4,11 +4,8 @@ branches:
   - dev
 go:
 - 1.5.1
-# before_script:
-# - go get -v github.com/spf13/hugo
 install: go get github.com/spf13/hugo
 script:
-# - git submodule https://github.com/jpescador/hugo-future-imperfect.git ./themes/hugo-future-imperfect
 - hugo
 after_success:
   - bash deploy.sh
