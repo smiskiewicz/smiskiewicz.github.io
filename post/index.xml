@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Automation Engineering</title>
-    <link>https://smiskiewicz.github.io/post/</link>
+    <link>https://smiskiewicz.github.io/post/index.xml</link>
     <description>Recent content in Posts on Automation Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,62 +10,18 @@
     <atom:link href="https://smiskiewicz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>welcome</title>
+      <title>Welcome</title>
       <link>https://smiskiewicz.github.io/post/welcome/</link>
       <pubDate>Sat, 09 Jul 2016 22:27:46 -0400</pubDate>
       
       <guid>https://smiskiewicz.github.io/post/welcome/</guid>
       <description>
 
+&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;
 
+&lt;p&gt;It&amp;rsquo;s a blog! I&amp;rsquo;ve decided to start documenting some things I&amp;rsquo;ve learned from my experience in building and deploying web applications at scale.  The internet has provided me free job training on a regular basis and I felt this was a way I could help give back to the community.&lt;/p&gt;
 
-
-    
-    
-        
-        
-        
-        
-    
-
-    
-    
-    
-
-    
-    
-
-
-
-
-    
-
-
-    
-
-    
-        &lt;span class=&#34;image left&#34;&gt;
-            &lt;img src=&#34;https://smiskiewicz.github.io/img//Fallout4_Render_T51.jpg&#34; alt=&#34;fallout&#34; /&gt;
-        &lt;/span&gt;
-    
-
-
-
-&lt;h2 id=&#34;hello-hugo&#34;&gt;Hello hugo!&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;ve finally decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb&lt;/p&gt;
-
-&lt;p&gt;iseubf skh hs ukse bsk b   s hsk hsk hskhfnfksjdb bjk&lt;/p&gt;
-
-&lt;p&gt;skfjh slkfjhs gkjbsgk bekl jblks&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve finally decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I&amp;rsquo;ve finally decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I&amp;rsquo;ve finally decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s = &amp;quot;Python syntax highlighting&amp;quot;
-print s
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I&amp;rsquo;ve finally decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I&amp;rsquo;ve finally decided to take the time to sit down and work on a blog.  Let&amp;rsquo;s add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb&lt;/p&gt;
+&lt;p&gt;The focus will be on the things I do from a day to day basis: continous integration, software deployment, configuration management and operations.  If you want to learn more about me feel free to checkout the about section.  I have yet to setup a comments section, if you have any please send them my way via a direct message on twitter @stevemiskiewicz&lt;/p&gt;
 </description>
     </item>
     
