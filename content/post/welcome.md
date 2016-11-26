@@ -1,33 +1,19 @@
 +++
 author = ""
-categories = ["foo", "bar"]
+categories = []
 date = "2016-07-09T22:27:46-04:00"
 description = ""
 featured = ""
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
-title = "welcome"
+title = "Welcome"
 
 +++
 
-{{< img-post path="/img/" file="Fallout4_Render_T51.jpg" alt="fallout" type="left" >}}
-## Hello hugo!
+## Hello World!
 
-I've finally decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb 
+It's a blog! I've decided to start documenting some things I've learned from my experience in building and deploying web applications at scale.  The internet has provided me free job training on a regular basis and I felt this was a way I could help give back to the community.  
 
- iseubf skh hs ukse bsk b   s hsk hsk hskhfnfksjdb bjk   
-
- skfjh slkfjhs gkjbsgk bekl jblks
-
-
-I've finally decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I've finally decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I've finally decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb 
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I've finally decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb I've finally decided to take the time to sit down and work on a blog.  Let's add some content and see how it looks!  Should be nice. adskfjha a;ndfefn ukndlxkj  ubskjfb uh bskecjn iuebfks jbskef ubskgb  kubk ubskfjbsefkub bu skfb skbsekuf sb kub kb 
-
+The focus will be on the things I do from a day to day basis: continous integration, software deployment, configuration management and operations.  If you want to learn more about me feel free to checkout the about section.  I have yet to setup a comments section, if you have any please send them my way via a direct message on twitter @stevemiskiewicz
 
