@@ -2,7 +2,7 @@
 author = ""
 categories = [ "docker" ]
 date = "2016-11-30T19:02:29-05:00"
-description = ""
+description = "docker commandline for life"
 featured = ""
 featuredalt = ""
 featuredpath = ""
@@ -11,9 +11,6 @@ title = "docker_cheatsheet"
 
 +++
 List of docker commands to use when building and cleaning up images and containers.
-
-### Basic commands
-These simple commands to the building blocks to doing anything more complicated.
 
 ```bash
 # builds image (Dockerfile in current dir)
