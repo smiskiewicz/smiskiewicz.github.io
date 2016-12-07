@@ -18,10 +18,6 @@
 
 &lt;p&gt;List of docker commands to use when building and cleaning up images and containers.&lt;/p&gt;
 
-&lt;h3 id=&#34;basic-commands&#34;&gt;Basic commands&lt;/h3&gt;
-
-&lt;p&gt;These simple commands to the building blocks to doing anything more complicated.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# builds image (Dockerfile in current dir)
 docker build .
 
