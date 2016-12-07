@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Automation Engineering</title>
-    <link>https://smiskiewicz.github.io/post/index.xml</link>
-    <description>Recent content in Posts on Automation Engineering</description>
+    <title>docker on Automation Engineering</title>
+    <link>https://smiskiewicz.github.io/categories/docker/index.xml</link>
+    <description>Recent content in docker on Automation Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2016 19:02:29 -0500</lastBuildDate>
-    <atom:link href="https://smiskiewicz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://smiskiewicz.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>docker_cheatsheet</title>
@@ -67,22 +66,6 @@ sudo docker rm $(sudo docker ps -a -q)
 # rm all images
 sudo docker rmi $(sudo docker images -q)
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://smiskiewicz.github.io/post/welcome/</link>
-      <pubDate>Sat, 09 Jul 2016 22:27:46 -0400</pubDate>
-      
-      <guid>https://smiskiewicz.github.io/post/welcome/</guid>
-      <description>
-
-&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;
-
-&lt;p&gt;It&amp;rsquo;s a blog! I&amp;rsquo;ve decided to document some of the adventures I&amp;rsquo;ve had in building, deploying, and operating web applications at scale.&lt;/p&gt;
-
-&lt;p&gt;The focus will be on the things I do from a day to day basis: continous integration, software deployment, configuration management and operations.  If you want to learn more about me feel free to checkout the about section.  I have yet to setup a comments section, if you have any please send them my way via a direct message on twitter @stevemiskiewicz&lt;/p&gt;
 </description>
     </item>
     

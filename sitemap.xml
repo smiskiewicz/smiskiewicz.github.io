@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://smiskiewicz.github.io/post/docker_cheatsheet/</loc>
+    <lastmod>2016-11-30T19:02:29-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://smiskiewicz.github.io/about/</loc>
     <lastmod>2016-07-10T21:56:36-04:00</lastmod>
   </url>
@@ -13,13 +18,24 @@
   
   <url>
     <loc>https://smiskiewicz.github.io/</loc>
-    <lastmod>2016-07-10T21:56:36-04:00</lastmod>
+    <lastmod>2016-11-30T19:02:29-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://smiskiewicz.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://smiskiewicz.github.io/post/</loc>
-    <lastmod>2016-07-09T22:27:46-04:00</lastmod>
+    <lastmod>2016-11-30T19:02:29-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://smiskiewicz.github.io/categories/docker/</loc>
+    <lastmod>2016-11-30T19:02:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   

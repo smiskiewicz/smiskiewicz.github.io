@@ -6,8 +6,69 @@
     <description>Recent content on Automation Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jul 2016 21:56:36 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 30 Nov 2016 19:02:29 -0500</lastBuildDate>
     <atom:link href="https://smiskiewicz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>docker_cheatsheet</title>
+      <link>https://smiskiewicz.github.io/post/docker_cheatsheet/</link>
+      <pubDate>Wed, 30 Nov 2016 19:02:29 -0500</pubDate>
+      
+      <guid>https://smiskiewicz.github.io/post/docker_cheatsheet/</guid>
+      <description>
+
+&lt;p&gt;List of docker commands to use when building and cleaning up images and containers.&lt;/p&gt;
+
+&lt;h3 id=&#34;basic-commands&#34;&gt;Basic commands&lt;/h3&gt;
+
+&lt;p&gt;These simple commands to the building blocks to doing anything more complicated.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# builds image (Dockerfile in current dir)
+docker build .
+
+# build image with specific Dockerfile
+docker build -f Dockfile_unittest
+
+# list docker images
+docker images
+
+# list docker image ids
+docker images -q
+
+# check current running containers
+docker ps
+
+# check all containers (not running too)
+docker ps -a
+
+# only return container ids
+docker ps -a -q
+
+# start a container in an interactive bash session
+docker run -it IMAGEID bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;nested-commands&#34;&gt;Nested Commands&lt;/h3&gt;
+
+&lt;p&gt;Nesting commands together allow you to do much more complex actions against mulitple containers or images.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# remove old stopped containers
+docker rm $(docker ps -a -q)
+
+# remove untaged images
+docker rmi $(docker images -q --filter &amp;quot;dangling=true&amp;quot;)
+
+# stop all containers
+sudo docker stop  $(sudo docker ps -a -q)
+
+# rm all stopped containers
+sudo docker rm $(sudo docker ps -a -q)
+
+# rm all images
+sudo docker rmi $(sudo docker images -q)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>about</title>
@@ -17,9 +78,11 @@
       <guid>https://smiskiewicz.github.io/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a dude.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve worked in software for almost a decade working on Continious Integration, Software Deployment, Operations, Testing and automating all kinds of things.  I&amp;rsquo;ve currently been focused on a microservices architecture and all the joys that come with it, good and bad.  Posts will probably be about the tools and tech I deal with every day.  So expect some fun Jenkins, Docker, and Ansible posts.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve worked in software for almost a decade working on Continious Integration, Software Deployment, Operations, Testing and automating all kinds of things.  I&amp;rsquo;m currently focused on a microservices architecture and all the joys and horrors that come with it.  Posts will be about the tools and tech I deal with every day.&lt;/p&gt;
 
-&lt;p&gt;Here is my attempt at the legal stuff.  All of my code is free to use, if you want to post about it yourself please note this site as a source.&lt;/p&gt;
+&lt;p&gt;The internet has provided me free job training, code, operating systems, and tools on a daily basis.  Since the community has given me so much, I felt this blog was a way that I could help give back to the community.&lt;/p&gt;
+
+&lt;p&gt;This blog is running on github pages.  To generate the html I&amp;rsquo;m using hugo and publishing is done via travis ci.  One of these days I&amp;rsquo;ll write up the process for it.  I recommend all these things, they are free and awesome tools.  Here is my attempt at the legal stuff.  All of my code is free to use, if you want to re-post info from this blog you are free to do so, I just ask to please note this site as a source.  It&amp;rsquo;s the nice thing to do.&lt;/p&gt;
 </description>
     </item>
     
@@ -33,7 +96,7 @@
 
 &lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;
 
-&lt;p&gt;It&amp;rsquo;s a blog! I&amp;rsquo;ve decided to start documenting some things I&amp;rsquo;ve learned from my experience in building and deploying web applications at scale.  The internet has provided me free job training on a regular basis and I felt this was a way I could help give back to the community.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a blog! I&amp;rsquo;ve decided to document some of the adventures I&amp;rsquo;ve had in building, deploying, and operating web applications at scale.&lt;/p&gt;
 
 &lt;p&gt;The focus will be on the things I do from a day to day basis: continous integration, software deployment, configuration management and operations.  If you want to learn more about me feel free to checkout the about section.  I have yet to setup a comments section, if you have any please send them my way via a direct message on twitter @stevemiskiewicz&lt;/p&gt;
 </description>
